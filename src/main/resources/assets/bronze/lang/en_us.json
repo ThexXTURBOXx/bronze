@@ -1,4 +1,12 @@
 {
   "bronze.itemGroup": "Bronze",
-  "item.bronze.bronze_ingot": "Bronze Ingot"
+  "block.bronze.tin_ore_block": "Tin Ore",
+  "item.bronze.raw_tin": "Raw Tin",
+  "block.bronze.raw_tin_block": "Block of Raw Tin",
+  "item.bronze.tin_ingot": "Tin Ingot",
+  "block.bronze.tin_block": "Block of Tin",
+
+  "item.bronze.bronze_blend": "Bronze Blend",
+  "item.bronze.bronze_ingot": "Bronze Ingot",
+  "block.bronze.bronze_block": "Block of Bronze"
 }
