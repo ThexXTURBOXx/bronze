@@ -3,13 +3,13 @@
 	"id": "bronze",
 	"version": "${version}",
 	"name": "Bronze",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Three copper plus one tin will turn your smile into a grin",
 	"authors": [
-		"Me!"
+		"Khazoda | June"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://bronze.khazoda.com",
+		"sources": "https://github.com/Khazoda/bronze"
 	},
 	"license": "MIT",
 	"icon": "assets/bronze/icon.png",
