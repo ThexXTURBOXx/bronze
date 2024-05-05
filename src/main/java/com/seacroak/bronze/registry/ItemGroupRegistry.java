@@ -3,7 +3,6 @@ package com.seacroak.bronze.registry;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.text.Text;
 
 
@@ -13,6 +12,13 @@ public class ItemGroupRegistry {
         .icon(() -> new ItemStack(MainRegistry.BRONZE_INGOT))
         .displayName(Text.translatable("bronze.itemGroup"))
         .entries((displayContext, entries) -> {
+          entries.add(new ItemStack(MainRegistry.TIN_BLOCK));
+          entries.add(new ItemStack(MainRegistry.BRONZE_BLOCK));
+          entries.add(new ItemStack(MainRegistry.TIN_ORE));
+          entries.add(new ItemStack(MainRegistry.TIN_RAW_BLOCK));
+          entries.add(new ItemStack(MainRegistry.TIN_RAW));
+          entries.add(new ItemStack(MainRegistry.BRONZE_BLEND));
+          entries.add(new ItemStack(MainRegistry.TIN_INGOT));
           entries.add(new ItemStack(MainRegistry.BRONZE_INGOT));
 
         }).build();
