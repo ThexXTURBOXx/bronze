@@ -11,18 +11,18 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/bronze/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.seacroak.Bronze"
+			"com.seacroak.bronze.BronzeMod"
 		],
 		"client": [
-			"com.seacroak.BronzeClient"
+			"com.seacroak.bronze.BronzeModClient"
 		],
 		"fabric-datagen": [
-			"com.seacroak.BronzeDataGenerator"
+			"com.seacroak.bronze.BronzeModDataGenerator"
 		]
 	},
 	"mixins": [
