@@ -24,12 +24,14 @@ public class MainRegistry {
   public static final Item TIN_RAW = Registry.register(Registries.ITEM, ID("raw_tin"), new Item(defaultItemSettings));
   public static final Item TIN_INGOT = Registry.register(Registries.ITEM, ID("tin_ingot"), new Item(defaultItemSettings));
   public static final Item BRONZE_BLEND = Registry.register(Registries.ITEM, ID("bronze_blend"), new Item(defaultItemSettings));
+  public static final Item BRONZE_NUGGET = Registry.register(Registries.ITEM, ID("bronze_nugget"), new Item(defaultItemSettings));
   public static final Item BRONZE_INGOT = Registry.register(Registries.ITEM, ID("bronze_ingot"), new Item(defaultItemSettings));
 
   /* Blocks */
   public static final TinOre TIN_ORE = registerBlock("tin_ore_block", new TinOre(), defaultItemSettings);
   public static final DeepslateTinOre DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore_block", new DeepslateTinOre(), defaultItemSettings);
   public static final TinRawBlock TIN_RAW_BLOCK = registerBlock("raw_tin_block", new TinRawBlock(), defaultItemSettings);
+  public static final BronzeBlendBlock BRONZE_BLEND_BLOCK = registerBlock("bronze_blend_block", new BronzeBlendBlock(), defaultItemSettings);
   public static final TinBlock TIN_BLOCK = registerBlock("tin_block", new TinBlock(), defaultItemSettings);
   public static final BronzeBlock BRONZE_BLOCK = registerBlock("bronze_block", new BronzeBlock(), defaultItemSettings);
 
