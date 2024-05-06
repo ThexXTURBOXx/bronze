@@ -24,6 +24,12 @@ public class ItemGroupRegistry {
           entries.add(new ItemStack(MainRegistry.TIN_INGOT));
           entries.add(new ItemStack(MainRegistry.BRONZE_INGOT));
 
+          entries.add(new ItemStack(MainRegistry.BRONZE_HELMET));
+          entries.add(new ItemStack(MainRegistry.BRONZE_CHESTPLATE));
+          entries.add(new ItemStack(MainRegistry.BRONZE_LEGGINGS));
+          entries.add(new ItemStack(MainRegistry.BRONZE_BOOTS));
+
+
         }).build();
   }
 

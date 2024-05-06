@@ -1,10 +1,13 @@
 package com.seacroak.bronze.registry;
 
+import com.seacroak.bronze.armor.BronzeArmorMaterial;
 import com.seacroak.bronze.block.*;
 import com.seacroak.bronze.util.RegistryHelper;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.block.Block;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -35,13 +38,15 @@ public class MainRegistry {
   public static final TinBlock TIN_BLOCK = registerBlock("tin_block", new TinBlock(), defaultItemSettings);
   public static final BronzeBlock BRONZE_BLOCK = registerBlock("bronze_block", new BronzeBlock(), defaultItemSettings);
 
+  /* Armor */
+  public static final Item BRONZE_HELMET = Registry.register(Registries.ITEM, ID("bronze_helmet"), new ArmorItem(BronzeArmorMaterial.BRONZE, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+  public static final Item BRONZE_CHESTPLATE = Registry.register(Registries.ITEM, ID("bronze_chestplate"), new ArmorItem(BronzeArmorMaterial.BRONZE, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+  public static final Item BRONZE_LEGGINGS = Registry.register(Registries.ITEM, ID("bronze_leggings"), new ArmorItem(BronzeArmorMaterial.BRONZE, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+  public static final Item BRONZE_BOOTS = Registry.register(Registries.ITEM, ID("bronze_boots"), new ArmorItem(BronzeArmorMaterial.BRONZE, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+
   /* WorldGen */
   public static final RegistryKey<PlacedFeature> TIN_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, ID("ore_tin"));
-
-
-
-
-
 
 
   public static void init() {
