@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "minecraft:bronze_pickaxe"
+    },
+    {
+      "item": "minecraft:bronze_shovel"
+    },
+    {
+      "item": "minecraft:bronze_axe"
+    },
+    {
+      "item": "minecraft:bronze_hoe"
+    },
+    {
+      "item": "minecraft:bronze_sword"
+    },
+    {
+      "item": "minecraft:bronze_helmet"
+    },
+    {
+      "item": "minecraft:bronze_chestplate"
+    },
+    {
+      "item": "minecraft:bronze_leggings"
+    },
+    {
+      "item": "minecraft:bronze_boots"
+    }
+  ],
+  "result": {
+    "id": "bronze:bronze_nugget"
+  }
+}
