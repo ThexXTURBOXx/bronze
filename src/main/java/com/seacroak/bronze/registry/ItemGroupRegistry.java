@@ -15,6 +15,7 @@ public class ItemGroupRegistry {
           entries.add(new ItemStack(MainRegistry.TIN_BLOCK));
           entries.add(new ItemStack(MainRegistry.BRONZE_BLOCK));
           entries.add(new ItemStack(MainRegistry.TIN_ORE));
+          entries.add(new ItemStack(MainRegistry.DEEPSLATE_TIN_ORE));
           entries.add(new ItemStack(MainRegistry.TIN_RAW_BLOCK));
           entries.add(new ItemStack(MainRegistry.TIN_RAW));
           entries.add(new ItemStack(MainRegistry.BRONZE_BLEND));

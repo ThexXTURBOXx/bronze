@@ -1,32 +1,40 @@
 package com.seacroak.bronze.registry;
 
-import com.seacroak.bronze.block.BronzeBlock;
-import com.seacroak.bronze.block.TinBlock;
-import com.seacroak.bronze.block.TinOre;
-import com.seacroak.bronze.block.TinRawBlock;
+import com.seacroak.bronze.block.*;
 import com.seacroak.bronze.util.RegistryHelper;
+import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
+import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.world.gen.GenerationStep;
+import net.minecraft.world.gen.feature.PlacedFeature;
 
 import static com.seacroak.bronze.Constants.BRONZE_LOGGER;
+import static com.seacroak.bronze.util.GenericUtils.ID;
 
 public class MainRegistry {
   static final Item.Settings defaultItemSettings = new Item.Settings().maxCount(64);
 
-  public static final Item TIN_RAW = Registry.register(Registries.ITEM, new Identifier("bronze", "raw_tin"), new Item(defaultItemSettings));
-  public static final Item TIN_INGOT = Registry.register(Registries.ITEM, new Identifier("bronze", "tin_ingot"), new Item(defaultItemSettings));
-  public static final Item BRONZE_BLEND = Registry.register(Registries.ITEM, new Identifier("bronze", "bronze_blend"), new Item(defaultItemSettings));
-  public static final Item BRONZE_INGOT = Registry.register(Registries.ITEM, new Identifier("bronze", "bronze_ingot"), new Item(defaultItemSettings));
+  /* Items */
+  public static final Item TIN_RAW = Registry.register(Registries.ITEM, ID("raw_tin"), new Item(defaultItemSettings));
+  public static final Item TIN_INGOT = Registry.register(Registries.ITEM, ID("tin_ingot"), new Item(defaultItemSettings));
+  public static final Item BRONZE_BLEND = Registry.register(Registries.ITEM, ID("bronze_blend"), new Item(defaultItemSettings));
+  public static final Item BRONZE_INGOT = Registry.register(Registries.ITEM, ID("bronze_ingot"), new Item(defaultItemSettings));
 
+  /* Blocks */
   public static final TinOre TIN_ORE = registerBlock("tin_ore_block", new TinOre(), defaultItemSettings);
+  public static final DeepslateTinOre DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore_block", new DeepslateTinOre(), defaultItemSettings);
   public static final TinRawBlock TIN_RAW_BLOCK = registerBlock("raw_tin_block", new TinRawBlock(), defaultItemSettings);
   public static final TinBlock TIN_BLOCK = registerBlock("tin_block", new TinBlock(), defaultItemSettings);
   public static final BronzeBlock BRONZE_BLOCK = registerBlock("bronze_block", new BronzeBlock(), defaultItemSettings);
 
+  /* WorldGen */
+  public static final RegistryKey<PlacedFeature> TIN_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, ID("ore_tin"));
 
 
 
@@ -34,20 +42,11 @@ public class MainRegistry {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-  /* Class Initializer */
   public static void init() {
     BRONZE_LOGGER.info("Initializing Main Registry");
+    /* Add Tin Ore to WorldGen */
+    BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, TIN_ORE_PLACED_KEY);
+
   }
 
   /* Registration Functions */
