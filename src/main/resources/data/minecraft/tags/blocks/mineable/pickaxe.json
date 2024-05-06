@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "bronze:tin_ore_block",
+    "bronze:deepslate_tin_ore_block",
+    "bronze:raw_tin_block",
+    "bronze:bronze_blend_block",
+    "bronze:tin_block",
+    "bronze:bronze_block"
+  ]
+}
