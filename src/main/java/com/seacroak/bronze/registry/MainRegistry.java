@@ -38,10 +38,10 @@ public class MainRegistry {
   public static final ToolItem BRONZE_HOE = Registry.register(Registries.ITEM, ID("bronze_hoe"), new BronzeHoe(BronzeToolMaterial.INSTANCE));
 
   // Armor
-  public static final Item BRONZE_HELMET = Registry.register(Registries.ITEM, ID("bronze_helmet"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
-  public static final Item BRONZE_CHESTPLATE = Registry.register(Registries.ITEM, ID("bronze_chestplate"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
-  public static final Item BRONZE_LEGGINGS = Registry.register(Registries.ITEM, ID("bronze_leggings"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
-  public static final Item BRONZE_BOOTS = Registry.register(Registries.ITEM, ID("bronze_boots"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+  public static final Item BRONZE_HELMET = Registry.register(Registries.ITEM, ID("bronze_helmet"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(18))));
+  public static final Item BRONZE_CHESTPLATE = Registry.register(Registries.ITEM, ID("bronze_chestplate"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(18))));
+  public static final Item BRONZE_LEGGINGS = Registry.register(Registries.ITEM, ID("bronze_leggings"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(18))));
+  public static final Item BRONZE_BOOTS = Registry.register(Registries.ITEM, ID("bronze_boots"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(18))));
 
   /* Blocks */
   public static final TinOre TIN_ORE = registerBlock("tin_ore_block", new TinOre(), defaultItemSettings);

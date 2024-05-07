@@ -6,5 +6,5 @@ import net.minecraft.sound.BlockSoundGroup;
 
 public class TinOre extends Block {
   public TinOre() {
-    super(AbstractBlock.Settings.create().strength(2.5f).sounds(BlockSoundGroup.COPPER).requiresTool());  }
+    super(AbstractBlock.Settings.create().strength(2.5f).sounds(BlockSoundGroup.METAL).requiresTool());  }
 }
