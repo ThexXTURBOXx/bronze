@@ -22,7 +22,7 @@
 			"com.seacroak.bronze.BronzeModClient"
 		],
 		"fabric-datagen": [
-			"com.seacroak.bronze.BronzeModDataGenerator"
+			"com.seacroak.bronze.datagen.BronzeModDataGenerator"
 		]
 	},
 	"mixins": [
