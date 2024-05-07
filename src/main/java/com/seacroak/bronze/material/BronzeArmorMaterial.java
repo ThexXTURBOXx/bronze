@@ -1,4 +1,4 @@
-package com.seacroak.bronze.armor;
+package com.seacroak.bronze.material;
 
 import com.seacroak.bronze.registry.MainRegistry;
 import net.minecraft.item.ArmorItem;
@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class BronzeArmorMaterial {
-  public static final RegistryEntry<ArmorMaterial> BRONZE;
+  public static final RegistryEntry<ArmorMaterial> INSTANCE;
 
   public BronzeArmorMaterial() {
   }
@@ -39,7 +39,7 @@ public class BronzeArmorMaterial {
   }
   static {
 
-    BRONZE = register(Util.make(new EnumMap<>(ArmorItem.Type.class), (map) -> {
+    INSTANCE = register(Util.make(new EnumMap<>(ArmorItem.Type.class), (map) -> {
       map.put(ArmorItem.Type.BOOTS, 2);
       map.put(ArmorItem.Type.LEGGINGS, 5);
       map.put(ArmorItem.Type.CHESTPLATE, 7);
