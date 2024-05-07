@@ -28,14 +28,14 @@ public class MainRegistry {
   public static final Item BRONZE_BLEND = Registry.register(Registries.ITEM, ID("bronze_blend"), new BronzeBlend(defaultItemSettings));
   public static final Item BRONZE_NUGGET = Registry.register(Registries.ITEM, ID("bronze_nugget"), new BronzeNugget(defaultItemSettings));
   public static final Item BRONZE_INGOT = Registry.register(Registries.ITEM, ID("bronze_ingot"), new BronzeIngot(defaultItemSettings));
-  public static final Item BRONZE_HORSE_ARMOR = Registry.register(Registries.ITEM,ID("bronze_horse_armor"), new AnimalArmorItem(BronzeArmorMaterial.INSTANCE, AnimalArmorItem.Type.EQUESTRIAN, false, (new Item.Settings()).maxCount(1)));
+  public static final Item BRONZE_HORSE_ARMOR = Registry.register(Registries.ITEM, ID("bronze_horse_armor"), new AnimalArmorItem(BronzeArmorMaterial.INSTANCE, AnimalArmorItem.Type.EQUESTRIAN, false, (new Item.Settings()).maxCount(1)));
 
   //  Weapons
-  public static final ToolItem BRONZE_SWORD = Registry.register(Registries.ITEM, ID("bronze_sword"), new BronzeSword(BronzeToolMaterial.INSTANCE, (new Item.Settings()).attributeModifiers(SwordItem.createAttributeModifiers(BronzeToolMaterial.INSTANCE, 3, -2.4F))));
-  public static final ToolItem BRONZE_AXE = Registry.register(Registries.ITEM, ID("bronze_axe"), new BronzeAxe(BronzeToolMaterial.INSTANCE, (new Item.Settings()).attributeModifiers(AxeItem.createAttributeModifiers(ToolMaterials.IRON, 6.0F, -3.1F))));
-  public static final ToolItem BRONZE_PICKAXE = Registry.register(Registries.ITEM, ID("bronze_pickaxe"), new BronzePickaxe(BronzeToolMaterial.INSTANCE, (new Item.Settings()).attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.IRON, 1.0F, -2.8F))));
-  public static final ToolItem BRONZE_SHOVEL = Registry.register(Registries.ITEM, ID("bronze_shovel"), new BronzeShovel(BronzeToolMaterial.INSTANCE, (new Item.Settings()).attributeModifiers(ShovelItem.createAttributeModifiers(ToolMaterials.IRON, 1.5F, -3.0F))));
-  public static final ToolItem BRONZE_HOE = Registry.register(Registries.ITEM, ID("bronze_hoe"), new BronzeHoe(BronzeToolMaterial.INSTANCE, (new Item.Settings()).attributeModifiers(HoeItem.createAttributeModifiers(ToolMaterials.IRON, -2.0F, -1.0F))));
+  public static final ToolItem BRONZE_SWORD = Registry.register(Registries.ITEM, ID("bronze_sword"), new BronzeSword(BronzeToolMaterial.INSTANCE));
+  public static final ToolItem BRONZE_AXE = Registry.register(Registries.ITEM, ID("bronze_axe"), new BronzeAxe(BronzeToolMaterial.INSTANCE));
+  public static final ToolItem BRONZE_PICKAXE = Registry.register(Registries.ITEM, ID("bronze_pickaxe"), new BronzePickaxe(BronzeToolMaterial.INSTANCE));
+  public static final ToolItem BRONZE_SHOVEL = Registry.register(Registries.ITEM, ID("bronze_shovel"), new BronzeShovel(BronzeToolMaterial.INSTANCE));
+  public static final ToolItem BRONZE_HOE = Registry.register(Registries.ITEM, ID("bronze_hoe"), new BronzeHoe(BronzeToolMaterial.INSTANCE));
 
   // Armor
   public static final Item BRONZE_HELMET = Registry.register(Registries.ITEM, ID("bronze_helmet"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
@@ -50,7 +50,6 @@ public class MainRegistry {
   public static final BronzeBlendBlock BRONZE_BLEND_BLOCK = registerBlock("bronze_blend_block", new BronzeBlendBlock(), defaultItemSettings);
   public static final TinBlock TIN_BLOCK = registerBlock("tin_block", new TinBlock(), defaultItemSettings);
   public static final BronzeBlock BRONZE_BLOCK = registerBlock("bronze_block", new BronzeBlock(), defaultItemSettings);
-
 
 
   /* WorldGen */

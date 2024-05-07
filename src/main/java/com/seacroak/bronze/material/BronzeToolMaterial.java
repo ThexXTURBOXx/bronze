@@ -23,7 +23,7 @@ public class BronzeToolMaterial implements ToolMaterial {
 
   @Override
   public float getAttackDamage() {
-    return 3.0F;
+    return 2.5F;
   }
 
   @Override
