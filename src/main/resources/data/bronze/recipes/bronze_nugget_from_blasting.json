@@ -3,36 +3,37 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.1,
+  "group": "bronze_nugget_from_blasting",
   "ingredient": [
     {
-      "item": "minecraft:bronze_pickaxe"
+      "item": "bronze:bronze_pickaxe"
     },
     {
-      "item": "minecraft:bronze_shovel"
+      "item": "bronze:bronze_shovel"
     },
     {
-      "item": "minecraft:bronze_axe"
+      "item": "bronze:bronze_axe"
     },
     {
-      "item": "minecraft:bronze_hoe"
+      "item": "bronze:bronze_hoe"
     },
     {
-      "item": "minecraft:bronze_sword"
+      "item": "bronze:bronze_sword"
     },
     {
-      "item": "minecraft:bronze_helmet"
+      "item": "bronze:bronze_helmet"
     },
     {
-      "item": "minecraft:bronze_chestplate"
+      "item": "bronze:bronze_chestplate"
     },
     {
-      "item": "minecraft:bronze_leggings"
+      "item": "bronze:bronze_leggings"
     },
     {
-      "item": "minecraft:bronze_boots"
+      "item": "bronze:bronze_boots"
     },
     {
-      "item": "minecraft:bronze_horse_armor"
+      "item": "bronze:bronze_horse_armor"
     }
   ],
   "result": {
