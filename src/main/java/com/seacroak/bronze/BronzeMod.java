@@ -22,6 +22,7 @@ public class BronzeMod implements ModInitializer {
 		Registry.register(Registries.ITEM_GROUP, GenericUtils.ID(BRONZE_ID), BRONZE_ITEMGROUP);
 
 		MainRegistry.init();
+		ItemGroupRegistry.slideItemsIntoVanillaItemGroups();
 		BRONZE_LOGGER.info("[Bronze] Finished Loading!");
 	}
 }
