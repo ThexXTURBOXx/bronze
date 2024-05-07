@@ -11,5 +11,19 @@
   "item.bronze.bronze_blend": "Bronze Blend",
   "item.bronze.bronze_nugget": "Bronze Nugget",
   "item.bronze.bronze_ingot": "Bronze Ingot",
-  "block.bronze.bronze_block": "Block of Bronze"
+  "block.bronze.bronze_block": "Block of Bronze",
+
+  "item.bronze.bronze_helmet": "Bronze Helmet",
+  "item.bronze.bronze_chestplate": "Bronze Chestplate",
+  "item.bronze.bronze_leggings": "Bronze Leggings",
+  "item.bronze.bronze_boots": "Bronze Boots",
+
+  "item.bronze.bronze_sword": "Bronze Sword",
+  "item.bronze.bronze_axe": "Bronze Axe",
+  "item.bronze.bronze_pickaxe": "Bronze Pickaxe",
+  "item.bronze.bronze_shovel": "Bronze Shovel",
+  "item.bronze.bronze_hoe": "Bronze Hoe",
+
+  "item.bronze.bronze_horse_armor": "Bronze Horse Armor"
+
 }
