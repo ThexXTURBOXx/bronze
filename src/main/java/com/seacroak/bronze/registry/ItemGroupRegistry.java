@@ -29,6 +29,14 @@ public class ItemGroupRegistry {
           entries.add(new ItemStack(MainRegistry.BRONZE_LEGGINGS));
           entries.add(new ItemStack(MainRegistry.BRONZE_BOOTS));
 
+          entries.add(new ItemStack(MainRegistry.BRONZE_SWORD));
+          entries.add(new ItemStack(MainRegistry.BRONZE_AXE));
+          entries.add(new ItemStack(MainRegistry.BRONZE_PICKAXE));
+          entries.add(new ItemStack(MainRegistry.BRONZE_SHOVEL));
+          entries.add(new ItemStack(MainRegistry.BRONZE_HOE));
+
+          entries.add(new ItemStack(MainRegistry.BRONZE_HORSE_ARMOR));
+
 
         }).build();
   }
