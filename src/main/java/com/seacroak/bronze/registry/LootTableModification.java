@@ -10,10 +10,7 @@ import net.minecraft.loot.function.SetDamageLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 import static net.minecraft.loot.LootTables.*;
 
@@ -82,7 +79,7 @@ public class LootTableModification {
       ItemEntry.builder(MainRegistry.BRONZE_PICKAXE).weight(1).build()
   );
 
-  private static final List<LootPoolEntry> ancient_city_pool = Arrays.asList(
+  private static final List<LootPoolEntry> ancient_city_pool = Collections.singletonList(
       ItemEntry.builder(MainRegistry.BRONZE_LEGGINGS).weight(1).build()
   );
 
@@ -92,7 +89,7 @@ public class LootTableModification {
 
   );
 
-  private static final List<LootPoolEntry> desert_pyramid_pool = Arrays.asList(
+  private static final List<LootPoolEntry> desert_pyramid_pool = Collections.singletonList(
       ItemEntry.builder(MainRegistry.BRONZE_HORSE_ARMOR).weight(1).build()
   );
 
@@ -110,7 +107,7 @@ public class LootTableModification {
       ItemEntry.builder(MainRegistry.BRONZE_HOE).weight(1).build()
   );
 
-  private static final List<LootPoolEntry> igloo_chest_pool = Arrays.asList(
+  private static final List<LootPoolEntry> igloo_chest_pool = Collections.singletonList(
       ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(2).build()
   );
 
@@ -119,11 +116,11 @@ public class LootTableModification {
       ItemEntry.builder(MainRegistry.BRONZE_HORSE_ARMOR).weight(1).build()
   );
 
-  private static final List<LootPoolEntry> nether_bridge_pool = Arrays.asList(
+  private static final List<LootPoolEntry> nether_bridge_pool = Collections.singletonList(
       ItemEntry.builder(MainRegistry.BRONZE_HORSE_ARMOR).weight(1).build()
   );
 
-  private static final List<LootPoolEntry> pillager_outpost_pool = Arrays.asList(
+  private static final List<LootPoolEntry> pillager_outpost_pool = Collections.singletonList(
       ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(1).build()
   );
 
@@ -132,7 +129,7 @@ public class LootTableModification {
       ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(3).build()
   );
 
-  private static final List<LootPoolEntry> spawn_bonus_chest_pool = Arrays.asList(
+  private static final List<LootPoolEntry> spawn_bonus_chest_pool = Collections.singletonList(
       ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(2).build()
   );
 
@@ -154,7 +151,7 @@ public class LootTableModification {
       ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(2).build()
   );
 
-  private static final List<LootPoolEntry> underwater_ruin_big_pool = Arrays.asList(
+  private static final List<LootPoolEntry> underwater_ruin_big_pool = Collections.singletonList(
       ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(2).build()
   );
 
@@ -196,11 +193,11 @@ public class LootTableModification {
       ItemEntry.builder(MainRegistry.BRONZE_HORSE_ARMOR).weight(1).build()
   );
 
-  private static final List<LootPoolEntry> archaeology_desert_pyramid_pool = Arrays.asList(
+  private static final List<LootPoolEntry> archaeology_desert_pyramid_pool = Collections.singletonList(
       ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
   );
 
-  private static final List<LootPoolEntry> archaeology_desert_well_pool = Arrays.asList(
+  private static final List<LootPoolEntry> archaeology_desert_well_pool = Collections.singletonList(
       ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(2).build()
   );
 
