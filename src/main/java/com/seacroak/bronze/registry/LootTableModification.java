@@ -5,7 +5,7 @@ import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LootPoolEntry;
-import net.minecraft.loot.function.EnchantRandomlyLootFunction;
+import net.minecraft.loot.function.EnchantWithLevelsLootFunction;
 import net.minecraft.loot.function.SetDamageLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
@@ -214,21 +214,17 @@ public class LootTableModification {
     tableBuilder.pool(poolBuilder);
   }
 
-  public static void addEnchantedItems(List<LootPoolEntry> loot_pool, LootTable.Builder tableBuilder, boolean applyDamage) {
+  public static void addEnchantedItems(List<LootPoolEntry> loot_pool, LootTable.Builder tableBuilder, boolean applyDamage, float enchantMin, float enchantMax) {
     /* Function adds 0-2 items that are either enchanted and damaged, or full health with no enchantment */
     Collection<LootPool> lootPools = new ArrayList<>();
     LootPool.Builder enchantedPoolBuilder = LootPool.builder()
-        .rolls(UniformLootNumberProvider.create(0f, 1f))
+        .rolls(UniformLootNumberProvider.create(0f, 2f))
         .with(loot_pool)
-        .apply(EnchantRandomlyLootFunction.create());
+        .apply(EnchantWithLevelsLootFunction.builder(UniformLootNumberProvider.create(enchantMin, enchantMax)));
     if (applyDamage) enchantedPoolBuilder.apply(SetDamageLootFunction.builder(UniformLootNumberProvider.create(0.7f, 0.95f)))
         .bonusRolls(ConstantLootNumberProvider.create(0.5f));
 
-    LootPool.Builder normalPoolBuilder = LootPool.builder()
-        .rolls(UniformLootNumberProvider.create(0f, 1f))
-        .with(loot_pool);
     lootPools.add(enchantedPoolBuilder.build());
-    lootPools.add(normalPoolBuilder.build());
     tableBuilder.pools(lootPools);
   }
 
@@ -244,7 +240,7 @@ public class LootTableModification {
       }
 
       if (source.isBuiltin() && ANCIENT_CITY_CHEST.equals(key)) {
-        addEnchantedItems(ancient_city_pool, tableBuilder, false);
+        addEnchantedItems(ancient_city_pool, tableBuilder, false,15f,30f);
       }
 
       if (source.isBuiltin() && BURIED_TREASURE_CHEST.equals(key)) {
@@ -256,7 +252,7 @@ public class LootTableModification {
       }
 
       if (source.isBuiltin() && END_CITY_TREASURE_CHEST.equals(key)) {
-        addEnchantedItems(end_city_treasure_pool, tableBuilder, false);
+        addEnchantedItems(end_city_treasure_pool, tableBuilder, false,22f,30f);
       }
 
       if (source.isBuiltin() && IGLOO_CHEST_CHEST.equals(key)) {
