@@ -1,6 +1,7 @@
 package com.seacroak.bronze;
 
 import com.seacroak.bronze.registry.ItemGroupRegistry;
+import com.seacroak.bronze.registry.LootTableModification;
 import com.seacroak.bronze.registry.MainRegistry;
 import com.seacroak.bronze.util.GenericUtils;
 import net.fabricmc.api.ModInitializer;
@@ -22,6 +23,7 @@ public class BronzeMod implements ModInitializer {
 		Registry.register(Registries.ITEM_GROUP, GenericUtils.ID(BRONZE_ID), BRONZE_ITEMGROUP);
 
 		MainRegistry.init();
+		LootTableModification.init();
 		ItemGroupRegistry.slideItemsIntoVanillaItemGroups();
 		BRONZE_LOGGER.info("[Bronze] Finished Loading!");
 	}

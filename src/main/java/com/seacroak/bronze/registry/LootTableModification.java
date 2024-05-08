@@ -73,79 +73,127 @@ public class LootTableModification {
   */
 
   private static final List<LootPoolEntry> simple_dungeon_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_HORSE_ARMOR).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(4).build()
   );
 
   private static final List<LootPoolEntry> abandoned_mineshaft_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(5).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_PICKAXE).weight(1).build()
   );
 
   private static final List<LootPoolEntry> ancient_city_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_LEGGINGS).weight(1).build()
   );
 
   private static final List<LootPoolEntry> buried_treasure_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(4).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_SWORD).weight(1).build()
+
   );
 
   private static final List<LootPoolEntry> desert_pyramid_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_HORSE_ARMOR).weight(1).build()
   );
 
   private static final List<LootPoolEntry> end_city_treasure_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_HELMET).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_CHESTPLATE).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_LEGGINGS).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_BOOTS).weight(1).build(),
+
+      ItemEntry.builder(MainRegistry.BRONZE_SWORD).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_PICKAXE).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_AXE).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_SHOVEL).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_HOE).weight(1).build()
   );
 
   private static final List<LootPoolEntry> igloo_chest_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(2).build()
   );
 
   private static final List<LootPoolEntry> jungle_temple_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(4).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_HORSE_ARMOR).weight(1).build()
   );
 
   private static final List<LootPoolEntry> nether_bridge_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_HORSE_ARMOR).weight(1).build()
   );
 
   private static final List<LootPoolEntry> pillager_outpost_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(1).build()
   );
 
   private static final List<LootPoolEntry> shipwreck_treasure_chest_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(4).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(3).build()
   );
 
   private static final List<LootPoolEntry> spawn_bonus_chest_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(2).build()
   );
 
   private static final List<LootPoolEntry> stronghold_corridor_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_HELMET).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_CHESTPLATE).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_LEGGINGS).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_BOOTS).weight(1).build(),
+
+      ItemEntry.builder(MainRegistry.BRONZE_SWORD).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_PICKAXE).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_AXE).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_SHOVEL).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_HOE).weight(1).build()
   );
 
   private static final List<LootPoolEntry> stronghold_crossing_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(2).build()
   );
 
   private static final List<LootPoolEntry> underwater_ruin_big_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(2).build()
   );
 
   private static final List<LootPoolEntry> woodland_mansion_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_HELMET).weight(2).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_CHESTPLATE).weight(2).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_LEGGINGS).weight(2).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_BOOTS).weight(2).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(3).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_HOE).weight(1).build()
+
   );
 
   private static final List<LootPoolEntry> village_village_armorer_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(4).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_HELMET).weight(1).build()
+
   );
 
   private static final List<LootPoolEntry> village_village_toolsmith_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_PICKAXE).weight(3).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_AXE).weight(3).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_SHOVEL).weight(3).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_HOE).weight(3).build()
   );
 
   private static final List<LootPoolEntry> village_village_weaponsmith_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_HELMET).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_CHESTPLATE).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_LEGGINGS).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_BOOTS).weight(1).build(),
+
+      ItemEntry.builder(MainRegistry.BRONZE_SWORD).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_PICKAXE).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_AXE).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_SHOVEL).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_HOE).weight(1).build(),
+      ItemEntry.builder(MainRegistry.BRONZE_HORSE_ARMOR).weight(1).build()
   );
 
   private static final List<LootPoolEntry> archaeology_desert_pyramid_pool = Arrays.asList(
@@ -153,16 +201,7 @@ public class LootTableModification {
   );
 
   private static final List<LootPoolEntry> archaeology_desert_well_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
-  );
-
-
-  private static final List<LootPoolEntry> diamond_loot_pool = Arrays.asList(
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build(),
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(1).build(),
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build(),
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build(),
-      ItemEntry.builder(MainRegistry.BRONZE_INGOT).weight(2).build()
+      ItemEntry.builder(MainRegistry.BRONZE_NUGGET).weight(2).build()
   );
 
   public static void addItems(List<LootPoolEntry> loot_pool, LootTable.Builder tableBuilder, boolean applyDamage) {
@@ -205,7 +244,7 @@ public class LootTableModification {
       }
 
       if (source.isBuiltin() && ANCIENT_CITY_CHEST.equals(key)) {
-        addItems(ancient_city_pool, tableBuilder, false);
+        addEnchantedItems(ancient_city_pool, tableBuilder, false);
       }
 
       if (source.isBuiltin() && BURIED_TREASURE_CHEST.equals(key)) {
@@ -217,7 +256,7 @@ public class LootTableModification {
       }
 
       if (source.isBuiltin() && END_CITY_TREASURE_CHEST.equals(key)) {
-        addItems(end_city_treasure_pool, tableBuilder, false);
+        addEnchantedItems(end_city_treasure_pool, tableBuilder, false);
       }
 
       if (source.isBuiltin() && IGLOO_CHEST_CHEST.equals(key)) {
@@ -279,7 +318,6 @@ public class LootTableModification {
       if (source.isBuiltin() && DESERT_WELL_ARCHAEOLOGY.equals(key)) {
         addItems(archaeology_desert_well_pool, tableBuilder, false);
       }
-
     });
   }
 }
