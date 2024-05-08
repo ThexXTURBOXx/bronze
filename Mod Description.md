@@ -6,9 +6,57 @@
 </span>
 
 ![Bronze Banner](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/logo_wide.png?raw=true)
+
+### Available for Fabric and Quilt, this mod aims to be the most vanilla-friendly bronze mod available for modern Minecraft.
+
+Tin is a new mineable resource which can be combined with copper to create bronze, a useful metal that is slightly better than iron, but worse than diamond.
+
 ![Getting Started](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_getting_started.png?raw=true)
+
+Deese
+
 ![Bronze Armor](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor.png?raw=true)
 ![Bronze Weapaons](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_weapons.png?raw=true)
 ![Bronze Tools](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_toools.png?raw=true)
 ![Bronze Mod Future](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_future.png?raw=true)
+
+Bronze tries to give copper more utility outside of redstone and building, as well as fleshing out midgame progression for standard Minecraft playthroughs.
+
+New Content
+
+Blocks
+
+Tin Ore
+Block of Tin
+Block of Raw Tin
+Block of Bronze
+
+Items
+
+Raw Tin
+Raw Bronze
+Tin Ingot
+Bronze Ingot
+
+Bronze Pickaxe
+Bronze Axe
+Bronze Shovel
+Bronze Hoe
+
+Bronze Sword
+Bronze Plated Shield
+
+Bronze Helmet
+Bronze Chestplate
+Bronze Leggings
+Bronze Boots
+
+The recipe for raw bronze is shapeless, and consists of one raw tin and three raw copper. The resulting raw bronze can be smelted in a 1:1 conversion to ingots.
+
+Recipes involving bronze mimic the vanilla Minecraft recipe shapes.
+
+Integration
+
+Bronze is fully integrated with the basic weapons mod, adding bronze variants of each weapon.
+
 ![Bronze Mod Footer](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_footer.png?raw=true)
