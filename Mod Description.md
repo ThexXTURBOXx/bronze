@@ -5,7 +5,9 @@
 
 </span>
 
-![Bronze Banner](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/logo_wide.png?raw=true)
+<img src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/logo_wide.png?raw=true" width="876" height="300" />
+
+<!-- ![Bronze Banner](https://wsrv.nl/?url=https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/logo_wide.png?raw=true&w=876) -->
 
 ### Available for Fabric and Quilt, this mod aims to be the most vanilla-friendly bronze mod available for modern Minecraft.
 
