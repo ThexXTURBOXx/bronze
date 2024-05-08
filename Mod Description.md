@@ -1,1 +1,6 @@
 ![Bronze Banner](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/logo_wide.png?raw=true)
+![Getting Started](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_getting_started.png?raw=true)
+![Bronze Armor](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor.png?raw=true)
+![Bronze Weapaons](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_weapons.png?raw=true)
+![Bronze Tools](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_toools.png?raw=true)
+![Bronze Mod Future](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_future.png?raw=true)
