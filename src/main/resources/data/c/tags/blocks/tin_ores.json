@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "bronze:tin_ore",
-    "bronze:deepslate_tin_ore"
+    "bronze:tin_ore_block",
+    "bronze:deepslate_tin_ore_block"
   ]
 }
