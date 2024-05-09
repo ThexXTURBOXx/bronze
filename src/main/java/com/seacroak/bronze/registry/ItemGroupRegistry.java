@@ -21,6 +21,7 @@ public class ItemGroupRegistry {
           entries.add(new ItemStack(MainRegistry.BRONZE_PICKAXE));
           entries.add(new ItemStack(MainRegistry.BRONZE_SHOVEL));
           entries.add(new ItemStack(MainRegistry.BRONZE_HOE));
+          entries.add(new ItemStack(MainRegistry.BRONZE_SICKLE));
 
           entries.add(new ItemStack(MainRegistry.BRONZE_HELMET));
           entries.add(new ItemStack(MainRegistry.BRONZE_CHESTPLATE));
@@ -40,6 +41,9 @@ public class ItemGroupRegistry {
           entries.add(new ItemStack(MainRegistry.BRONZE_NUGGET));
 
           entries.add(new ItemStack(MainRegistry.BRONZE_HORSE_ARMOR));
+          entries.add(new ItemStack(MainRegistry.BRONZE_DOOR));
+          entries.add(new ItemStack(MainRegistry.BRONZE_TRAPDOOR));
+
         }).build();
   }
 
@@ -53,6 +57,9 @@ public class ItemGroupRegistry {
           MainRegistry.BRONZE_PICKAXE,
           MainRegistry.BRONZE_AXE,
           MainRegistry.BRONZE_HOE);
+
+      content.addAfter(Items.BRUSH,
+          MainRegistry.BRONZE_SICKLE);
     });
 
     /* Combat */
@@ -103,6 +110,15 @@ public class ItemGroupRegistry {
       content.addAfter(Items.CHAIN,
           MainRegistry.BRONZE_BLOCK,
           MainRegistry.TIN_BLOCK);
+    });
+
+    /* Redstone Blocks */
+    ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(content -> {
+      content.addAfter(Items.IRON_DOOR,
+          MainRegistry.BRONZE_DOOR);
+
+      content.addAfter(Items.IRON_TRAPDOOR,
+          MainRegistry.BRONZE_TRAPDOOR);
     });
 
 

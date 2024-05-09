@@ -36,6 +36,7 @@ public class MainRegistry {
   public static final ToolItem BRONZE_PICKAXE = Registry.register(Registries.ITEM, ID("bronze_pickaxe"), new BronzePickaxe(BronzeToolMaterial.INSTANCE));
   public static final ToolItem BRONZE_SHOVEL = Registry.register(Registries.ITEM, ID("bronze_shovel"), new BronzeShovel(BronzeToolMaterial.INSTANCE));
   public static final ToolItem BRONZE_HOE = Registry.register(Registries.ITEM, ID("bronze_hoe"), new BronzeHoe(BronzeToolMaterial.INSTANCE));
+  public static final ToolItem BRONZE_SICKLE = Registry.register(Registries.ITEM, ID("bronze_sickle"), new BronzeSickle(BronzeToolMaterial.INSTANCE));
 
   // Armor
   public static final Item BRONZE_HELMET = Registry.register(Registries.ITEM, ID("bronze_helmet"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(18))));
@@ -50,6 +51,9 @@ public class MainRegistry {
   public static final BronzeBlendBlock BRONZE_BLEND_BLOCK = registerBlock("bronze_blend_block", new BronzeBlendBlock(), defaultItemSettings);
   public static final TinBlock TIN_BLOCK = registerBlock("tin_block", new TinBlock(), defaultItemSettings);
   public static final BronzeBlock BRONZE_BLOCK = registerBlock("bronze_block", new BronzeBlock(), defaultItemSettings);
+
+  public static final BronzeDoor BRONZE_DOOR = registerBlock("bronze_door_block", new BronzeDoor(), defaultItemSettings);
+  public static final BronzeTrapdoor BRONZE_TRAPDOOR = registerBlock("bronze_trapdoor_block", new BronzeTrapdoor(), defaultItemSettings);
 
 
   /* WorldGen */
