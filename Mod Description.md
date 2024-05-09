@@ -13,6 +13,12 @@ Tin is a new mineable resource which can be combined with copper to create bronz
 
 ![Getting Started](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_getting_started.png?raw=true)
 
+<span style="float:right">
+
+![Tin mining gif](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/gifs/mining_tin_cut-optimized.gif?raw=true)
+
+</span>
+
 Your first step is to gather some raw tin and copper.<br/> You will need 1 <kbd>Raw Tin</kbd> and 3 <kbd>Raw Copper</kbd> for every <kbd>Bronze Ingot</kbd> you want to make.<br/>Craft 3 <kbd>Raw Copper</kbd> with 1 <kbd>Raw Tin</kbd> in a crafting window to obtain <kbd>Bronze Blend</kbd> - then smelt this item in a furnace to obtain a <kbd>Bronze Ingot</kbd>.
 
 With your new bronze ingot, a new material tier opens up to you. Read on to find out what you can make with bronze.
