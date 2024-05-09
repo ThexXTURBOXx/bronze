@@ -23,7 +23,11 @@
   "item.bronze.bronze_pickaxe": "Bronze Pickaxe",
   "item.bronze.bronze_shovel": "Bronze Shovel",
   "item.bronze.bronze_hoe": "Bronze Hoe",
+  "item.bronze.bronze_sickle": "Sickle",
 
-  "item.bronze.bronze_horse_armor": "Bronze Horse Armor"
+  "item.bronze.bronze_horse_armor": "Bronze Horse Armor",
+
+  "block.bronze.bronze_door_block": "Bronze Door",
+  "block.bronze.bronze_trapdoor_block": "Bronze Trapdoor"
 
 }
