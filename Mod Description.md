@@ -26,9 +26,9 @@ With your new bronze ingot, a new material tier opens up to you. Read on to find
 
 **Explanation about bronze armor stats, benefits, drawbacks, crafting., trimming**
 
-<img style="float: center;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/gifs/bronze_armor_trial_chambers-optimized.gif?raw=true">
+<img style="float: center;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/gifs/bronze_armor_trial_chambers-optimized.gif?raw=true" alt="Gif of player wearing bronze armor walking through trial chambers">
 
-**Sprites nicely arranged of all the armor pieces, maybe with trims if it's easy?**
+![Bronze Armor items](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor_items.png?raw=true)
 
 ![Bronze Weapons](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_weapons.png?raw=true)
 WEAPON COLLAGE INCLUDING BASIC WEAPONS
