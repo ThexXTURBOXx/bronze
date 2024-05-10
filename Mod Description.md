@@ -26,12 +26,12 @@ With your new bronze ingot, a new material tier opens up to you. Read on to find
 
 <img style="float: right;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor_items.png?raw=true" alt="Trimmable bronze armor items">
 
-### Bronze armor is a a tier above iron and below diamond.
+### Bronze armor is a tier slightly above iron and below diamond.
 
 Most pieces have the same armor value as iron, but sport 2 distinct benefits over iron:
 
 - Bronze armor has ~16% more durability than iron
-- All bronze armor pieces have 1 [`+1 Armor Toughness`](https://minecraft.wiki/w/Armor#Armor_toughness).
+- All bronze armor pieces have [`+1 Armor Toughness`](https://minecraft.wiki/w/Armor#Armor_toughness).
 - The bronze chestplate has one more armor point compared to iron
 
 Crafting bronze armor is the same as crafting iron armor, but using Bronze Ingots instead of Iron Ingots.
@@ -42,7 +42,9 @@ Crafting bronze armor is the same as crafting iron armor, but using Bronze Ingot
 ![Bronze Weapons](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_weapons.png?raw=true)
 WEAPON COLLAGE INCLUDING BASIC WEAPONS
 ![Bronze Tools](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_toools.png?raw=true)
-TOOL COLLAGE
+stuff
+![Bronze Tools](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/tools_items.png?raw=true)
+
 ![Bronze Mod Future](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_future.png?raw=true)
 The bronze mod's ethos is about giving copper a whole new avenue of utility outside of redstone and building, as well as fleshing out midgame progression for survival Minecraft. With this in mind, there are a few new features I'd like to implement in the Bronze mod going forward:
 
