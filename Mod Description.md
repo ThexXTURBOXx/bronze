@@ -24,11 +24,20 @@ With your new bronze ingot, a new material tier opens up to you. Read on to find
 
 ![Bronze Armor](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor.png?raw=true)
 
-**Explanation about bronze armor stats, benefits, drawbacks, crafting., trimming**
+<img style="float: right;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor_items.png?raw=true" alt="Trimmable bronze armor items">
+
+### Bronze armor is a a tier above iron and below diamond.
+
+Most pieces have the same armor value as iron, but sport 2 distinct benefits over iron:
+
+- Bronze armor has ~16% more durability than iron
+- All bronze armor pieces have 1 [`+1 Armor Toughness`](https://minecraft.wiki/w/Armor#Armor_toughness).
+- The bronze chestplate has one more armor point compared to iron
+
+Crafting bronze armor is the same as crafting iron armor, but using Bronze Ingots instead of Iron Ingots.
+<br/>Bronze armor fully supports Minecraft's new armor trimming system. Mix and match colors for the perfect set of armor.
 
 <img style="float: center;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/gifs/bronze_armor_trial_chambers-optimized.gif?raw=true" alt="Gif of player wearing bronze armor walking through trial chambers">
-
-![Bronze Armor items](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor_items.png?raw=true)
 
 ![Bronze Weapons](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_weapons.png?raw=true)
 WEAPON COLLAGE INCLUDING BASIC WEAPONS
