@@ -44,7 +44,8 @@ Crafting bronze armor is the same as crafting iron armor, but using Bronze Ingot
 <!-- BRONZE WEAPON SECTION -->
 
 ![Bronze Weapons](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_weapons.png?raw=true)
-WEAPON COLLAGE INCLUDING BASIC WEAPONS
+
+![Bronze Weapons](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/weapons_items.png?raw=true)
 
 <!-- BRONZE TOOL SECTION -->
 
