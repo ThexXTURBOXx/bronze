@@ -45,7 +45,11 @@ Crafting bronze armor is the same as crafting iron armor, but using Bronze Ingot
 
 ![Bronze Weapons](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_weapons.png?raw=true)
 
+The bronze mod ships with 1 weapon by default, the <kbd>Bronze Sword</kbd>.<br/> This sword has 100 more durability than vanilla's iron sword, and does 0.5 more damage.<br/> This means that the bronze sword is halfway between iron and diamond in terms of damage, though the diamond sword has far greater durability.
+
 ![Bronze Weapons](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/weapons_items.png?raw=true)
+
+The banner above shows 5 other weapons, greyed out for now. One of my other mods, [Basic Weapons](https://modrinth.com/mod/basic-weapons) adds 5 other weapon archetypes. The bronze mod will soon support integration between the two mods, adding bronze versions of every weapon Basic Weapons adds.
 
 <!-- BRONZE TOOL SECTION -->
 
