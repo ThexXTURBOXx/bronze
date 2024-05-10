@@ -63,6 +63,8 @@ As you may expect, this mod adds bronze variants of all vanilla tools. These too
 In addition to the bronze variants of vanilla tools, a new tool joins the roster - the <kbd>Sickle</kbd>.<br/>
 This item helps you manage the flora in your world. It can harvest fully-grown crops on farmland as well as short and tall grass, leaving flowers and bushes intact.<br/>The <kbd>Sickle</kbd> is the perfect item for builders, who want to clear an area of land before building, as well as farmers, who will benefit from faster crop harvests.<br/>Drops from blocks destroyed with the sickle are respected, so you will still get all those seeds from the grass you cut down.
 
+#### Did you know: The sickle is in the same class as shears, compasses, clocks and the archaeology brush - it doesn't have different material tiers, and can subsequently only be made from bronze.
+
 <!-- FUTURE PLANS SECTION -->
 
 ![Bronze Mod Future](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_future.png?raw=true)
