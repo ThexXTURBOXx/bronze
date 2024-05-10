@@ -36,7 +36,7 @@ public class MainRegistry {
   public static final ToolItem BRONZE_PICKAXE = Registry.register(Registries.ITEM, ID("bronze_pickaxe"), new BronzePickaxe(BronzeToolMaterial.INSTANCE));
   public static final ToolItem BRONZE_SHOVEL = Registry.register(Registries.ITEM, ID("bronze_shovel"), new BronzeShovel(BronzeToolMaterial.INSTANCE));
   public static final ToolItem BRONZE_HOE = Registry.register(Registries.ITEM, ID("bronze_hoe"), new BronzeHoe(BronzeToolMaterial.INSTANCE));
-  public static final ToolItem BRONZE_SICKLE = Registry.register(Registries.ITEM, ID("bronze_sickle"), new BronzeSickle(BronzeToolMaterial.INSTANCE));
+  public static final ToolItem SICKLE = Registry.register(Registries.ITEM, ID("bronze_sickle"), new Sickle(BronzeToolMaterial.INSTANCE, new Item.Settings().maxCount(1)));
 
   // Armor
   public static final Item BRONZE_HELMET = Registry.register(Registries.ITEM, ID("bronze_helmet"), new ArmorItem(BronzeArmorMaterial.INSTANCE, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(18))));

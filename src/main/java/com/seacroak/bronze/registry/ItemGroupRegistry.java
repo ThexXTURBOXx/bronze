@@ -21,7 +21,7 @@ public class ItemGroupRegistry {
           entries.add(new ItemStack(MainRegistry.BRONZE_PICKAXE));
           entries.add(new ItemStack(MainRegistry.BRONZE_SHOVEL));
           entries.add(new ItemStack(MainRegistry.BRONZE_HOE));
-          entries.add(new ItemStack(MainRegistry.BRONZE_SICKLE));
+          entries.add(new ItemStack(MainRegistry.SICKLE));
 
           entries.add(new ItemStack(MainRegistry.BRONZE_HELMET));
           entries.add(new ItemStack(MainRegistry.BRONZE_CHESTPLATE));
@@ -59,7 +59,7 @@ public class ItemGroupRegistry {
           MainRegistry.BRONZE_HOE);
 
       content.addAfter(Items.BRUSH,
-          MainRegistry.BRONZE_SICKLE);
+          MainRegistry.SICKLE);
     });
 
     /* Combat */
