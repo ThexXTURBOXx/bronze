@@ -22,6 +22,8 @@ You will need 1 <kbd>Raw Tin</kbd> and 3 <kbd>Raw Copper</kbd> for every <kbd>Br
 
 With your new bronze ingot, a new material tier opens up to you. Read on to find out about all the wonderful things you can make with bronze.
 
+<!-- BRONZE ARMOR SECTION -->
+
 ![Bronze Armor](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor.png?raw=true)
 
 <img style="float: right;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_armor_items.png?raw=true" alt="Trimmable bronze armor items">
@@ -39,11 +41,29 @@ Crafting bronze armor is the same as crafting iron armor, but using Bronze Ingot
 
 <img style="float: center;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/gifs/bronze_armor_trial_chambers-optimized.gif?raw=true" alt="Gif of player wearing bronze armor walking through trial chambers">
 
+<!-- BRONZE WEAPON SECTION -->
+
 ![Bronze Weapons](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_weapons.png?raw=true)
 WEAPON COLLAGE INCLUDING BASIC WEAPONS
+
+<!-- BRONZE TOOL SECTION -->
+
 ![Bronze Tools](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_toools.png?raw=true)
-stuff
-![Bronze Tools](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/tools_items.png?raw=true)
+
+### Bronze Tools are slightly better than iron, but much worse than diamond
+
+As you may expect, this mod adds bronze variants of all vanilla tools. These tools have stats similar to iron, but with some distinct benefits:
+
+- Bronze tools have 350 durability instead of iron's 250
+- Bronze tools are ~14% faster than iron tools
+- Bronze tools have 0.5 more attack damage than iron tools
+  ![Tools banner](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/tools_items.png?raw=true)
+
+<img style="float: left;" src="https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/sickle_item.png?raw=true" alt="Sickle item">
+In addition to the bronze variants of vanilla tools, a new tool joins the roster - the <kbd>Sickle</kbd>.<br/>
+This item helps you manage the flora in your world. It can harvest fully-grown crops on farmland as well as short and tall grass, leaving flowers and bushes intact.<br/>The <kbd>Sickle</kbd> is the perfect item for builders, who want to clear an area of land before building, as well as farmers, who will benefit from faster crop harvests.<br/>Drops from blocks destroyed with the sickle are respected, so you will still get all those seeds from the grass you cut down.
+
+<!-- FUTURE PLANS SECTION -->
 
 ![Bronze Mod Future](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_future.png?raw=true)
 The bronze mod's ethos is about giving copper a whole new avenue of utility outside of redstone and building, as well as fleshing out midgame progression for survival Minecraft. With this in mind, there are a few new features I'd like to implement in the Bronze mod going forward:
