@@ -134,6 +134,7 @@ Bronze Boots
 Bronze Horse Armor
 
 6 Vanilla-style achievements
+Full Minecraft recipe book integration
 ```
 
 ![Bronze Mod Footer](https://github.com/Khazoda/bronze/blob/Web-Assets/description_common/bronze_footer.png?raw=true)
