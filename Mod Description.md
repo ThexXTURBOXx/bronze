@@ -82,9 +82,9 @@ The bronze mod has three main goals it aims to achieve:
 
 #### With this in mind, there are a few new features I'd like to implement in the Bronze mod going forward:
 
-First order of business is integration with [Basic Weapons](https://modrinth.com/mod/basic-weapons)
+First order of business is integration with [Basic Weapons](https://modrinth.com/mod/basic-weapons). The addition of the 5 new weapon types will hopefully bring a cohesive, enjoyable flavour to vanilla+ Minecraft.
 
-`Bronze` already includes a few non-combat blocks and items, such as the `Bronze Door`, `Bronze Trapdoor` and `Sickle`, but I believe there's room for more.<br/>
+This mod already includes a few non-combat blocks and items, such as the `Bronze Door`, `Bronze Trapdoor` and `Sickle`, but I believe there's room for more.<br/>
 Iron ingots have many different roles in vanilla Minecraft. They can be used for armor, weapons, tools, pistons, chains, pressure plates and about 35 other recipes.<br/>
 While I don't want bronze to be as useful as iron, as I believe it would take away from iron's mid-game dominance as a useful material too much, I do want to add some unique features that round the material out.
 
