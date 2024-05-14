@@ -46,7 +46,18 @@
   "advancement.bronze.got_sickle.description":"Craft this efficient enemy of grass and crops",
 
   "advancement.bronze.got_bronze_pickaxe.title": "It Isn't Iron Pick",
-  "advancement.bronze.got_bronze_pickaxe.description":"Upgrade your Pickaxe"
+  "advancement.bronze.got_bronze_pickaxe.description":"Upgrade your Pickaxe",
+
+  "tag.item.c.bronze_ingots": "Bronze Ingots",
+  "tag.item.c.shovels": "Shovels",
+  "tag.item.c.swords": "Swords",
+  "tag.item.c.bronze_dusts": "Bronze Dusts",
+  "tag.item.c.axes": "Axes",
+  "tag.item.c.hoes": "Hoes",
+  "tag.item.c.bronze_nuggets": "Bronze Nuggets",
+  "tag.item.c.pickaxes": "Pickaxes",
+  "tag.item.c.raw_tin": "Raw Tins"
+
 
 
 
