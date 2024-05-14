@@ -13,9 +13,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.state.property.Properties;
-import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Position;
 import net.minecraft.world.World;
 
 import java.util.List;
@@ -43,7 +41,7 @@ public class Sickle extends MiningToolItem {
   @Override
   public boolean postMine(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity miner) {
     stack.damage(1, miner, EquipmentSlot.MAINHAND);
-    aoeHarvest(world, state, pos, 0);
+    aoeHarvest(world, state, state, pos, 0);
     return true;
   }
 
@@ -52,37 +50,41 @@ public class Sickle extends MiningToolItem {
     return true;
   }
 
-  private static void aoeHarvest(World worldIn, BlockState blockState, BlockPos pos, int time) {
+  private static void aoeHarvest(World worldIn, BlockState initialBlockState, BlockState currentBlockState, BlockPos pos, int time) {
     if (worldIn.isClient()) return;
 
     /* True when block mined is a crop*/
-    if (blockState.getBlock() instanceof CropBlock || blockState.getBlock() instanceof NetherWartBlock) {
-      if (isMature(blockState) && !worldIn.isClient()) {
+    if (initialBlockState.getBlock() instanceof CropBlock || initialBlockState.getBlock() instanceof NetherWartBlock) {
+      if (isMature(initialBlockState) && !worldIn.isClient()) {
         worldIn.breakBlock(pos, true);
-        if (blockState.getBlock() instanceof NetherWartBlock) {
-          worldIn.setBlockState(pos, blockState.with(Properties.AGE_3, 0));
+        if (initialBlockState.getBlock() instanceof NetherWartBlock) {
+          worldIn.setBlockState(pos, initialBlockState.with(Properties.AGE_3, 0));
         }
-        if (blockState.getBlock() instanceof CropBlock) {
-          worldIn.setBlockState(pos, blockState.with(Properties.AGE_7, 0));
+        if (initialBlockState.getBlock() instanceof CropBlock) {
+          worldIn.setBlockState(pos, initialBlockState.with(Properties.AGE_7, 0));
         }
 
         if (time < 2) {
-          aoeHarvest(worldIn, worldIn.getBlockState(pos.east()), pos.east(), time + 1);
-          aoeHarvest(worldIn, worldIn.getBlockState(pos.north()), pos.north(), time + 1);
-          aoeHarvest(worldIn, worldIn.getBlockState(pos.west()), pos.west(), time + 1);
-          aoeHarvest(worldIn, worldIn.getBlockState(pos.south()), pos.south(), time + 1);
+          aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.east()), pos.east(), time + 1);
+          aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.north()), pos.north(), time + 1);
+          aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.west()), pos.west(), time + 1);
+          aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.south()), pos.south(), time + 1);
         }
       }
     }
     /* True when block mined is grass*/
-    if (blockState.getBlock() instanceof ShortPlantBlock || blockState.getBlock() instanceof TallPlantBlock) {
-      worldIn.breakBlock(pos, true);
-      if (time < 4) {
-        aoeHarvest(worldIn, worldIn.getBlockState(pos.east()), pos.east(), time + 1);
-        aoeHarvest(worldIn, worldIn.getBlockState(pos.north()), pos.north(), time + 1);
-        aoeHarvest(worldIn, worldIn.getBlockState(pos.west()), pos.west(), time + 1);
-        aoeHarvest(worldIn, worldIn.getBlockState(pos.south()), pos.south(), time + 1);
+    if (initialBlockState.getBlock() instanceof ShortPlantBlock || initialBlockState.getBlock() instanceof TallPlantBlock) {
+      Block currentBlock = currentBlockState.getBlock();
+      if (currentBlock instanceof ShortPlantBlock || currentBlock instanceof TallPlantBlock) {
+        worldIn.breakBlock(pos, true);
       }
+      if (time < 4) {
+        aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.east()), pos.east(), time + 1);
+        aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.north()), pos.north(), time + 1);
+        aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.west()), pos.west(), time + 1);
+        aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.south()), pos.south(), time + 1);
+      }
+
     }
   }
 
