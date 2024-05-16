@@ -65,10 +65,10 @@ public class Sickle extends MiningToolItem {
         }
 
         if (time < 2) {
-          aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.east()), pos.east(), time + 1);
-          aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.north()), pos.north(), time + 1);
-          aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.west()), pos.west(), time + 1);
-          aoeHarvest(worldIn, initialBlockState, worldIn.getBlockState(pos.south()), pos.south(), time + 1);
+          aoeHarvest(worldIn, worldIn.getBlockState(pos.east()), worldIn.getBlockState(pos.east()), pos.east(), time + 1);
+          aoeHarvest(worldIn, worldIn.getBlockState(pos.north()), worldIn.getBlockState(pos.north()), pos.north(), time + 1);
+          aoeHarvest(worldIn, worldIn.getBlockState(pos.west()), worldIn.getBlockState(pos.west()), pos.west(), time + 1);
+          aoeHarvest(worldIn, worldIn.getBlockState(pos.south()), worldIn.getBlockState(pos.south()), pos.south(), time + 1);
         }
       }
     }
@@ -97,5 +97,6 @@ public class Sickle extends MiningToolItem {
     return false;
   }
 
-
 }
+
+
