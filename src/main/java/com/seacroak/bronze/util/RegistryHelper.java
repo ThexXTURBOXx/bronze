@@ -1,6 +1,5 @@
 package com.seacroak.bronze.util;
 
-import com.seacroak.bronze.BronzeMod;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -14,7 +13,7 @@ public class RegistryHelper {
 
   // General use Identifier() maker function
   public static Identifier newID(String name) {
-    return new Identifier(BRONZE_ID, name);
+    return Identifier.of(BRONZE_ID, name);
   }
 
   // Block Registry Helper Functions

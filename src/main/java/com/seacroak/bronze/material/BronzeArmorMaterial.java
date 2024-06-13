@@ -22,7 +22,7 @@ public class BronzeArmorMaterial {
   public BronzeArmorMaterial() {
   }
   private static RegistryEntry<ArmorMaterial> register(EnumMap<ArmorItem.Type, Integer> defense, Supplier<Ingredient> repairIngredient) {
-    List<ArmorMaterial.Layer> list = List.of(new ArmorMaterial.Layer(new Identifier("bronze")));
+    List<ArmorMaterial.Layer> list = List.of(new ArmorMaterial.Layer(Identifier.of("bronze")));
     return register("bronze", defense, repairIngredient, list);
   }
 
@@ -35,7 +35,7 @@ public class BronzeArmorMaterial {
       enumMap.put(type, (Integer) defense.get(type));
     }
 
-    return Registry.registerReference(Registries.ARMOR_MATERIAL, new Identifier(id), new ArmorMaterial(enumMap, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, repairIngredient, layers, (float) 1.0, (float) 0.0));
+    return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(id), new ArmorMaterial(enumMap, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, repairIngredient, layers, (float) 1.0, (float) 0.0));
   }
   static {
 
