@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "bronze:item/bronze_boomerang"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "weaponmod:boomerang-ready": 1
+      },
+      "model": "bronze:item/bronze_boomerang_ready"
+    }
+  ]
+}

@@ -1,12 +1,15 @@
 package com.seacroak.bronze.registry;
 
+import ckathode.weaponmod.BalkonsWeaponMod;
 import com.seacroak.bronze.block.*;
+import com.seacroak.bronze.integration.BWMLegacy;
 import com.seacroak.bronze.item.*;
 import com.seacroak.bronze.material.BronzeArmorMaterial;
 import com.seacroak.bronze.material.BronzeToolMaterial;
 import com.seacroak.bronze.util.RegistryHelper;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.Block;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -64,7 +67,9 @@ public class MainRegistry {
     BRONZE_LOGGER.info("Initializing Main Registry");
     /* Add Tin Ore to WorldGen */
     BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, TIN_ORE_PLACED_KEY);
-
+    if (FabricLoader.getInstance().isModLoaded(BalkonsWeaponMod.MOD_ID)) {
+      BWMLegacy.init();
+    }
   }
 
   /* Registration Functions */
